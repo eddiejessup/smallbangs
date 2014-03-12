@@ -23,7 +23,7 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('Facebook', 'https://www.facebook.com/elmo.marsden'),
           ('Twitter', 'https://twitter.com/EddieJessup'),
-          ('Work', 'http://ph.ed.ac.uk/people/elliot-marsden'),
+          ('Work', 'http://www.ph.ed.ac.uk/people/elliot-marsden'),
           ('GitHub', 'https://github.com/eddiejessup'),
           )
 
