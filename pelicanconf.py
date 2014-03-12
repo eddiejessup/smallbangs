@@ -31,5 +31,8 @@ DEFAULT_PAGINATION = 10
 
 THEME = "/Users/ejm/Projects/pelican-themes/bootstrap"
 
+PLUGIN_PATH = '/Users/ejm/Projects/pelican-plugins'
+PLUGINS = ['render_math']
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
