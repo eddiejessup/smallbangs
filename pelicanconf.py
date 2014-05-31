@@ -29,9 +29,9 @@ SOCIAL = (('Facebook', 'https://www.facebook.com/elmo.marsden'),
 
 DEFAULT_PAGINATION = 10
 
-THEME = "/Users/ejm/Projects/pelican-themes/bootstrap"
+THEME = "/Users/ejm/Projects/SmallBangs/pelican-themes/bootstrap"
 
-PLUGIN_PATH = '/Users/ejm/Projects/pelican-plugins'
+PLUGIN_PATH = '/Users/ejm/Projects/SmallBangs/pelican-plugins'
 PLUGINS = ['render_math']
 
 # Uncomment following line if you want document-relative URLs when developing
