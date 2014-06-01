@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+
 AUTHOR = u'Elliot Marsden'
 SITENAME = u'Small Bangs'
 SITEURL = ''
@@ -24,7 +26,10 @@ SOCIAL = (('Facebook', 'https://www.facebook.com/elmo.marsden'),
 
 DEFAULT_PAGINATION = 10
 
-THEME = "/Users/ejm/Pelican/pelican-themes/bootstrap"
+home = os.path.expanduser('~')
 
-PLUGIN_PATH = '/Users/ejm/Pelican/pelican-plugins'
+THEME = os.path.join(home, 'Pelican/pelican-themes/bootstrap')
+
+PLUGIN_PATH = os.path.join(home, 'Pelican/pelican-plugins')
 PLUGINS = ['render_math']
+print PLUGIN_PATH
