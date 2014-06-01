@@ -3,10 +3,17 @@
 from __future__ import unicode_literals
 
 import os
+import urllib2
+
+pub_ip = urllib2.urlopen('http://ip.42.pl/raw').read()
 
 AUTHOR = u'Elliot Marsden'
 SITENAME = u'Small Bangs'
-SITEURL = ''
+
+if pub_ip == '129.215.73.87':
+    SITEURL = 'http://www2.ph.ed.ac.uk/~s1152258'
+else:
+    SITEURL = ''
 
 TIMEZONE = 'Europe/London'
 
@@ -32,4 +39,3 @@ THEME = os.path.join(home, 'Pelican/pelican-themes/bootstrap')
 
 PLUGIN_PATH = os.path.join(home, 'Pelican/pelican-plugins')
 PLUGINS = ['render_math']
-print PLUGIN_PATH
