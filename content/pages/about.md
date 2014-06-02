@@ -1,5 +1,7 @@
 Title: About
 
+# Academia
+
 I'm a PhD student working in the Soft Matter group of the Institute for Condensed Matter and Complex Systems (ICMS), based in the School of Physics at the University of Edinburgh.
 
 The work I do for my PhD involves computer simulations of various non-equilibrium active systems: systems which may be far from thermal equilibrium for sustained periods of time. These systems generally have some input of external energy, for example via conversion of chemical energy into mechanical work by biological organisms.
