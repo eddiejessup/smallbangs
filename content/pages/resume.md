@@ -56,3 +56,9 @@ Title: Curriculum Vitae
 - Talk: 'Bacterial Dynamics in Confined Environments', School of Physics, University of Edinburgh (December 2013)
 - Talk: 'Bacterial Chemotaxis in Confining Geometries', [Niels Bohr Institute](http://www.nbi.ku.dk/english), Copenhagen (February 2014)
 - Poster: 'Bacterial Chemotaxis in Confining Geometries', [Stochastic Biology Conference](http://ist.ac.at/stochastic-biology), [IST Austria](http://ist.ac.at) (May 2014)
+
+# Work experience
+
+- Call centre operative for [Concept Solutions](http://www.conceptpropertyclaims.co.uk) (2005 - 2006)
+- Supermarket checkout operative for [Booths supermarkets](http://www.booths.co.uk) (2008)
+- Tutoring undergraduate physics students at the University of Edinburgh (2011 - present)
