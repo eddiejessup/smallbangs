@@ -3,17 +3,11 @@
 from __future__ import unicode_literals
 
 import os
-import urllib2
-
-pub_ip = urllib2.urlopen('http://ip.42.pl/raw').read()
 
 AUTHOR = u'Elliot Marsden'
 SITENAME = u'Small Bangs'
 
-if pub_ip == '129.215.73.87':
-    SITEURL = 'http://www2.ph.ed.ac.uk/~s1152258'
-else:
-    SITEURL = ''
+SITEURL = ''
 
 TIMEZONE = 'Europe/London'
 
