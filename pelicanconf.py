@@ -25,11 +25,20 @@ SOCIAL = (('Facebook', 'https://www.facebook.com/elmo.marsden'),
           ('GitHub', 'https://github.com/eddiejessup'),
           )
 
+GITHUB_URL = 'https://github.com/eddiejessup'
+TWITTER_URL = 'https://twitter.com/EddieJessup'
+FACEBOOK_URL = 'https://www.facebook.com/elmo.marsden'
+
 DEFAULT_PAGINATION = 10
 
 home = os.path.expanduser('~')
 
-THEME = os.path.join(home, 'Pelican/pelican-themes/bootstrap')
+THEME = os.path.join(home, 'Pelican/pelican-themes/gum')
 
 PLUGIN_PATH = os.path.join(home, 'Pelican/pelican-plugins')
 PLUGINS = ['render_math']
+
+STATIC_PATHS = ['images', 'files']
+
+TYPOGRIFY = True
+MD_EXTENSIONS = ['codehilite','extra', 'smarty']
