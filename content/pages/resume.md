@@ -60,5 +60,5 @@ Title: Curriculum Vitae
 # Work experience
 
 - Call centre operative for [Concept Solutions](http://www.conceptpropertyclaims.co.uk) (2005 - 2006)
-- Supermarket checkout operative for [Booths supermarkets](http://www.booths.co.uk) (2008)
+- Checkout operative for [Booths supermarkets](http://www.booths.co.uk) (2008)
 - Tutoring undergraduate physics students at the University of Edinburgh (2011 - present)
