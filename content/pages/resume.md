@@ -31,8 +31,8 @@ Title: Curriculum Vitae
 
 ## Other
 
-- Full UK Driving License without penalty points
-- Intermediate level French (GCSE and private learning)
+- Full, clean UK Driving License
+- Intermediate level French (A<sup>*</sup> at GCSE and private learning)
 - Conversational German (High school and one semester of an undergraduate course)
 - Conversational Russian (One semester of Edinburgh's [Languages for All](http://www.ed.ac.uk/studying/short-courses/languages/for-all) and private learning)
 
