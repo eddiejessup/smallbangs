@@ -1,3 +1,5 @@
+content/files
 output/
 *.pyc
 *.pid
+.DS_Store
