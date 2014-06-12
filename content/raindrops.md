@@ -27,7 +27,7 @@ $$ \dfrac{u(t - 2\Delta t, x) - 2u(t - \Delta t, x) + u(t, x)}{\Delta t^2} = c^2
 
 The one of those we want is $u(t,x)$, so solving for that we get,
 
-$$u(t, x) = \dfrac{c^2 \Delta t^2}{\Delta x^2} [ u(t - \Delta t, x - \Delta x) - 2u(t - \Delta t, x) + u(t - \Delta t, x + \Delta x) ] + u(t - 2\Delta t, x) - 2u(t - \Delta t, x) $$
+$$u(t, x) = \left( \dfrac{c \Delta t}{\Delta x} \right)^2 [ u(t - \Delta t, x - \Delta x) - 2u(t - \Delta t, x) + u(t - \Delta t, x + \Delta x) ] + u(t - 2\Delta t, x) - 2u(t - \Delta t, x) $$
 
 Ugly, but solvable -- just what computers were made for. Now you can walk along $x$ at each time-step and calculate your new $u$ by plugging in the values which you already know into the RHS of the above equation.
 
