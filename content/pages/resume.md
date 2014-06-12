@@ -44,7 +44,7 @@ Title: Curriculum Vitae
 - Tutored undergraduate students in several courses, including 'Scientific Programming in Java' and 'Computational Research Methods' (2011 - 2014)
 - Taught at [Software Carpentry](http://software-carpentry.org) [Boot Camps](http://software-carpentry.org/bootcamps) in Edinburgh (Dec 2012) and Bath (July 2013)
 - Co-designed and wrote an Android app, 'Tubeit' (2013)
-- Contributed to various open source projects such as LAMMPS, SublimeText extensions, VPython
+- Contributed to various open source projects such as [LAMMPS](http://lammps.sandia.gov), [Sublime Text](https://github.com/eddiejessup/Transcrypt), [VPython](http://vpython.org/)
 - First place in PhD poster competition in Edinburgh (October 2013)
 - Taught at a workshop on [Multiscale Computational Methods in Materials Modelling](http://kac.maths.ed.ac.uk/~nais/MCM3) at the [International Centre for Mathematical Sciences](http://www.icms.org.uk/), Edinburgh (June 2014)
 
