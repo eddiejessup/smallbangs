@@ -1,5 +1,6 @@
 Title: Can you fingerprint a sausage?
 Date: 2013-06-20
+Category: Programming
 Tags: Geometry, Maths, Python
 
 About a year ago I helped out teaching a first-year undergrad course on programming. One of the projects they could try was an interesting algorithm for generating patterns. The idea is that you have a set of fixed points in space, ${r_j}$, and you have a moveable point, $x(i)$ (at some initial position $x(0)$, whose value is not usually important). At each iteration, $i$, you pick an index, $j$, and move $x$ towards $r_j$ by some constant fraction, $d$, of the separation vector between $x$ and $r_j$,
