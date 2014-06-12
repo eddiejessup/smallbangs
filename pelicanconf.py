@@ -41,4 +41,4 @@ PLUGINS = ['render_math']
 STATIC_PATHS = ['images', 'files']
 
 TYPOGRIFY = True
-MD_EXTENSIONS = ['codehilite','extra', 'smarty']
+MD_EXTENSIONS = ['codehilite', 'extra', 'smarty', 'textalign']
