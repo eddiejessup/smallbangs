@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+
 
 import os
 
-AUTHOR = u'Elliot Marsden'
-SITENAME = u'Small Bangs'
+AUTHOR = 'Elliot Marsden'
+SITENAME = 'Small Bangs'
 
 SITEURL = ''
 
 TIMEZONE = 'Europe/London'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
