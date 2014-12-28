@@ -35,10 +35,12 @@ home = expanduser('~')
 
 THEME = join(home, 'Desktop/pelican-themes/gum')
 
-PLUGIN_PATH = join(home, 'Desktop/pelican-plugins')
+PLUGIN_PATHS = [join(home, 'Desktop/pelican-plugins')]
 PLUGINS = ['render_math']
 
 STATIC_PATHS = ['images', 'files']
 
 TYPOGRIFY = True
 MD_EXTENSIONS = ['codehilite', 'extra', 'smarty', 'textalign']
+
+MENUITEMS = [('Homepage', 'www.elliotmarsden.com')]
