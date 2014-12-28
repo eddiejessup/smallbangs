@@ -3,3 +3,7 @@ output/
 *.pyc
 *.pid
 .DS_Store
+.divshot-cache
+divshot.json
+venv/
+cache/
