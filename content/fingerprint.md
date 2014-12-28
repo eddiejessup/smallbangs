@@ -25,7 +25,7 @@ This may sound quite abstract, so here's an example (the first example the stude
 
 Shown below is a colour plot of the spatial probability distribution of $x$. The fixed points are also shown as black circles,
 
-![Sierpìnski Triangle](/blog/images/sierpinski.png)
+![Sierpìnski Triangle](/images/sierpinski.png)
 
 Hey it's a [Sierpiński triangle](http://en.wikipedia.org/wiki/Serpinski_triangle)! $x$ never goes in the triangles, and is otherwise uniformly distributed.
 
@@ -33,11 +33,11 @@ Hey it's a [Sierpiński triangle](http://en.wikipedia.org/wiki/Serpinski_triangl
 
 The final part of the project had the students use 4 points defining a square for ${r_j}$, with $d=0.5$. If $j$ is picked randomly, the result is a uniform distribution,
 
-![Square for d=0.5](/blog/images/square_uniform.png)
+![Square for d=0.5](/images/square_uniform.png)
 
 which is fairly interesting in itself. But what if instead of picking $j$ randomly, it's chosen by reading a text file containing characters representing the DNA bases of a genome? Each character is associated with a point $r_j$, and at each iteration $j$ is determined by reading the next character in the file. Doing this exposes the genomic structure in a remarkable way, showing visually the frequency of particular sequences of bases,
 
-![Human genome fingerprint](/blog/images/genetics.png)
+![Human genome fingerprint](/images/genetics.png)
 
 # Literature
 
@@ -45,15 +45,15 @@ So since I had to implement this stuff myself for the purposes of teaching the c
 
 Shakespeare:
 
-![Shakespeare's fingerprint](/blog/images/shakespeare.png "Shakespeare's fingerprint")
+![Shakespeare's fingerprint](/images/shakespeare.png "Shakespeare's fingerprint")
 
 Ulysses:
 
-![Joyce's fingerprint](/blog/images/ulysses.png "James Joyce's Ulysses' fingerprint")
+![Joyce's fingerprint](/images/ulysses.png "James Joyce's Ulysses' fingerprint")
 
 It might be reasonable to assume that the uniformity of the distribution is correlated with the variety of vocabulary used, since text consisting only of repeated insistences that 'The cat sat on the mat' would contain only a few vowel sequences, and the distribution would be very non-uniform, whereas a sequence of every permutation of every dictionary word would contain a large number of vowel sequences, and would be very long. To demonstrate this, if we feed in many paragraphs of [Lorem Ipsum](http://en.wikipedia.org/wiki/Lorem_ipsum), as an approximation of the complete works of a dull but determined writer, we get,
 
-![Loreum Ipsum's fingerprint](/blog/images/lorem_ipsum.png)
+![Loreum Ipsum's fingerprint](/images/lorem_ipsum.png)
 
 This has a standard deviation of $\sigma_w=37$, and appears highly non-uniform.
 
