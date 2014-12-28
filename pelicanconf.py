@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 
-import os
+from os.path import join, expanduser
 
 AUTHOR = 'Elliot Marsden'
 SITENAME = 'Small Bangs'
@@ -20,9 +20,9 @@ TRANSLATION_FEED_ATOM = None
 
 # Social widget
 SOCIAL = (('Facebook', 'https://www.facebook.com/elmo.marsden'),
-          ('Twitter', 'https://twitter.com/EddieJessup'),
-          ('Work', 'http://www.ph.ed.ac.uk/people/elliot-marsden'),
           ('GitHub', 'https://github.com/eddiejessup'),
+          ('Twitter', 'https://twitter.com/EddieJessup'),
+          ('Academic', 'http://www.ph.ed.ac.uk/people/elliot-marsden'),
           )
 
 GITHUB_URL = 'https://github.com/eddiejessup'
@@ -31,11 +31,11 @@ FACEBOOK_URL = 'https://www.facebook.com/elmo.marsden'
 
 DEFAULT_PAGINATION = 10
 
-home = os.path.expanduser('~')
+home = expanduser('~')
 
-THEME = os.path.join(home, 'Pelican/pelican-themes/gum')
+THEME = join(home, 'Desktop/pelican-themes/gum')
 
-PLUGIN_PATH = os.path.join(home, 'Pelican/pelican-plugins')
+PLUGIN_PATH = join(home, 'Desktop/pelican-plugins')
 PLUGINS = ['render_math']
 
 STATIC_PATHS = ['images', 'files']
