@@ -7,7 +7,7 @@ from os.path import join, expanduser
 AUTHOR = 'Elliot Marsden'
 SITENAME = 'Small Bangs'
 
-SITEURL = ''
+SITEURL = 'http://blog.elliotmarsden.com'
 
 TIMEZONE = 'Europe/London'
 
@@ -43,4 +43,4 @@ STATIC_PATHS = ['images', 'files']
 TYPOGRIFY = True
 MD_EXTENSIONS = ['codehilite', 'extra', 'smarty', 'textalign']
 
-MENUITEMS = [('Homepage', 'www.elliotmarsden.com')]
+MENUITEMS = [('Homepage', 'http://www.elliotmarsden.com')]
