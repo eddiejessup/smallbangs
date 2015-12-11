@@ -1,6 +1,0 @@
-{
-  "name": "smallbangs",
-  "root": "output",
-  "clean_urls": true,
-  "error_page": "error.html"
-}
