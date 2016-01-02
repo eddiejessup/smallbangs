@@ -19,11 +19,11 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Social widget
-SOCIAL = (('Facebook', 'https://www.facebook.com/elmo.marsden'),
-          ('GitHub', 'https://github.com/eddiejessup'),
-          ('Twitter', 'https://twitter.com/EddieJessup'),
-          ('Academic', 'http://www.ph.ed.ac.uk/people/elliot-marsden'),
-          )
+SOCIAL = (
+    ('Facebook', 'https://www.facebook.com/elmo.marsden'),
+    ('GitHub', 'https://github.com/eddiejessup'),
+    ('Twitter', 'https://twitter.com/EddieJessup'),
+)
 
 GITHUB_URL = 'https://github.com/eddiejessup'
 TWITTER_URL = 'https://twitter.com/EddieJessup'
