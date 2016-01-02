@@ -43,4 +43,6 @@ STATIC_PATHS = ['images', 'files']
 TYPOGRIFY = True
 MD_EXTENSIONS = ['codehilite', 'extra', 'smarty', 'textalign']
 
-MENUITEMS = [('Homepage', 'http://www.elliotmarsden.com')]
+MENUITEMS = [
+    ('Non-blog', '//elliotmarsden.com')
+]
