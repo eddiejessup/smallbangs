@@ -7,7 +7,7 @@ from os.path import join, expanduser
 AUTHOR = 'Elliot Marsden'
 SITENAME = 'Small Bangs'
 
-SITEURL = 'http://blog.elliotmarsden.com'
+SITEURL = ''
 
 TIMEZONE = 'Europe/London'
 
