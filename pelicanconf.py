@@ -33,9 +33,9 @@ DEFAULT_PAGINATION = 10
 
 home = expanduser('~')
 
-THEME = join(home, 'Desktop/pelican-themes/gum')
+THEME = join(home, 'projects/pelican-themes/gum')
 
-PLUGIN_PATHS = [join(home, 'Desktop/pelican-plugins')]
+PLUGIN_PATHS = [join(home, 'projects/pelican-plugins')]
 PLUGINS = ['render_math']
 
 STATIC_PATHS = ['images', 'files']
