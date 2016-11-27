@@ -20,7 +20,6 @@ TRANSLATION_FEED_ATOM = None
 
 # Social widget
 SOCIAL = (
-    ('Facebook', 'https://www.facebook.com/elmo.marsden'),
     ('GitHub', 'https://github.com/eddiejessup'),
     ('Twitter', 'https://twitter.com/EddieJessup'),
 )
@@ -31,18 +30,16 @@ FACEBOOK_URL = 'https://www.facebook.com/elmo.marsden'
 
 DEFAULT_PAGINATION = 10
 
-home = expanduser('~')
+THEME = 'pelican-themes/gum'
 
-THEME = join(home, 'projects/pelican-themes/gum')
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['render_math', 'liquid_notebooks.notebook']
 
-PLUGIN_PATHS = [join(home, 'projects/pelican-plugins')]
-PLUGINS = ['render_math']
-
-STATIC_PATHS = ['images', 'files']
-
-TYPOGRIFY = True
+TYPOGRIFY = False
 MD_EXTENSIONS = ['codehilite', 'extra', 'smarty', 'textalign']
 
 MENUITEMS = [
     ('Non-blog', '//elliotmarsden.com')
 ]
+
+MARKUP = ('md', 'ipynb')
