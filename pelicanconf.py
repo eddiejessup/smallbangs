@@ -26,7 +26,6 @@ SOCIAL = (
 
 GITHUB_URL = 'https://github.com/eddiejessup'
 TWITTER_URL = 'https://twitter.com/EddieJessup'
-FACEBOOK_URL = 'https://www.facebook.com/elmo.marsden'
 
 DEFAULT_PAGINATION = 10
 
