@@ -35,7 +35,17 @@ PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['render_math', 'liquid_notebooks.notebook']
 
 TYPOGRIFY = False
-MD_EXTENSIONS = ['codehilite', 'extra', 'smarty', 'textalign']
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.smarty': {},
+        # 'markdown.extensions.textalign': {},
+    },
+    'output_format': 'html5',
+}
 
 MENUITEMS = [
     ('Non-blog', '//elliotmarsden.com')
